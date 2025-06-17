@@ -1,0 +1,27 @@
+.nav-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 2% 20%;
+    color: white;
+    font-family: nunito, sans-serif, poppins, monospace;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.nav-list li {
+    margin: 0 15px;
+    padding: 15px 0;
+    border: none;
+    cursor: pointer;
+}
+
+.nav-list li:active {
+    outline: none;
+}
+
+.nav-list li:hover {
+    color: #333;
+}
