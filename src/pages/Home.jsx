@@ -6,25 +6,13 @@ import Navbar from "../components/Navbar";
 export default function Home() {
   return (
     <div className="homepage">
-      <div
-        className="main-section"
-        style={{
-          backgroundImage: `url(${mainpic2})`,
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-          backgroundRepeat: "no-repeat",
-          backgroundAttachment: "fixed",
-          height: "100vh",
-          width: "100%",
-        }}
-      >
-          <Navbar />
-        <div className="overlay">
-          <h1 className="heading">Creating Functional Designs with a Touch of Code.</h1>
-        </div>
+<Navbar />
+
+      {/* Content below navbar */}
+      <div className="content">
+        <h1>Welcome to My Portfolio</h1>
+        <p>This content will blur when menu is open.</p>
       </div>
-
-
     </div>
   );
 }
