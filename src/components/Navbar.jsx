@@ -31,7 +31,6 @@ const Navbar = () => {
     <div className={`main-wrapper ${isMenuOpen ? 'blurred' : ''}`}>
       <nav className="navbar">
         <div className="nav-container">
-          <h2 className="logo">MyPortfolio</h2>
           <div className="menu-icon" ref={iconRef} onClick={toggleMenu}>
             ☰
           </div>

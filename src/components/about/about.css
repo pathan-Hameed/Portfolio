@@ -1,0 +1,33 @@
+.about-section {
+     margin-top: 4rem;
+     margin-bottom: 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+}
+
+.name {
+    padding: 20px;
+    font-size: 34px;
+    text-align: center;
+}
+
+.name span {
+    font-size: 4rem;
+    color: #333;
+    font-weight: bold;
+    text-shadow: none;
+    color: 	#009afa;
+}
+
+.about-section p {
+    font-size: 1.5rem;
+    color: #555;
+    text-align: center;
+    padding: 20px;
+    margin-top: 5px;
+}
