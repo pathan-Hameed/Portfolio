@@ -9,37 +9,29 @@
   position: fixed;
   top: 0;
   width: 100%;
-  background-color: #0f172a;
   color: white;
   z-index: 999;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
 }
 
 .nav-container {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   align-items: center;
   padding: 16px 24px;
   max-width: 1200px;
   margin: auto;
 }
 
-.nav-logo {
-  font-size: 1.4rem;
-  font-weight: bold;
-  color: #ffffff;
-}
-
 .nav-links {
   display: flex;
-  gap: 24px;
+  gap: 30px;
   list-style: none;
 }
 
 .nav-links li a {
   text-decoration: none;
-  color: #f0f0f0;
-  font-size: 1rem;
+  color: darkgray;
+  font-size: 1.25rem;
   transition: color 0.3s;
 }
 

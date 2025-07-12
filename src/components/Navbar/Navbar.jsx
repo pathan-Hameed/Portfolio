@@ -29,8 +29,6 @@ const Navbar = () => {
   return (
     <header className="navbar">
       <div className="nav-container">
-        <div className="nav-logo">Abdul Hameed</div>
-
         {/* Desktop Menu */}
         <ul className="nav-links">
           <li><a href="#home">Home</a></li>
