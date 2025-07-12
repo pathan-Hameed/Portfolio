@@ -1,24 +1,23 @@
 .skillset {
-    background-color: #0f172a;
-    padding: 40px;
-    color: white;
-  }
-  
+  background-color: #0f172a;
+  padding: 40px;
+  color: white;
+}
+
+.skills-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+@media screen and (min-width: 768px) {
   .skills-wrapper {
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
   }
-  
-  @media screen and (min-width: 768px) {
-    .skills-wrapper {
-      flex-direction: row;
-      justify-content: space-between;
-      align-items: flex-start;
-    }
-  }
-  
-  .skills-bars {
-    flex: 1;
-  }
-  
+}
+
+.skills-bars {
+  flex: 1;
+}

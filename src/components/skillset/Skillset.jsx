@@ -17,10 +17,12 @@ export default function Skillset() {
         <div className="skills-bars">
           <h2 style={{ color: '#ffffff', marginBottom: '30px' }}>My Skills</h2>
           <SkillBar skill="HTML & CSS" percentage={90} />
-          <SkillBar skill="JavaScript" percentage={85} />
-          <SkillBar skill="React.js" percentage={80} />
-          <SkillBar skill="Node.js" percentage={70} />
+          <SkillBar skill="JavaScript" percentage={82} />
+          <SkillBar skill="React.js" percentage={55} />
+          <SkillBar skill="Node.js" percentage={20} />
           <SkillBar skill="MongoDB" percentage={60} />
+          <SkillBar skill="Figma" percentage={66} />
+          <SkillBar skill="JAVA" percentage={70} />
         </div>
         <PieChart data={pieData} title="Tech Stack Breakdown" />
       </div>
