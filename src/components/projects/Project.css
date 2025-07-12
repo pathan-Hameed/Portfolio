@@ -1,0 +1,15 @@
+.projects {
+    display: flex;
+    overflow-x: auto;
+}
+
+.projects::-webkit-scrollbar {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .projects {
+        flex-direction: column;
+        align-items: center;
+    }
+}
