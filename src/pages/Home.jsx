@@ -2,9 +2,12 @@ import React from "react";
 import "./Home.css";
 import mainpic2 from "../assets/mainpic2.jpg";
 import skillpic from "../assets/skillpic.jpg";
-import Navbar from "../components/Navbar";
+import Navbar from "../components/Navbar/Navbar";
 import Skillset from "../components/skillset/Skillset";
 import AboutSection from "../components/about/AboutSection";
+import Project from "../components/projects/Project";
+import LetsConnect from "../components/letsConnect/LetsConnect";
+import Footer from "../components/footer/Footer";
 
 export default function Home() {
   return (
@@ -25,8 +28,8 @@ export default function Home() {
         <h1>Welcome to My Portfolio</h1>
         <p>Explore my projects and skills</p>
         <div className="buttons">
-          <button className="btn">View Projects</button>
-          <button className="btn">Contact Me</button>
+        <a href="#projects-section"><button className="btn">View Projects</button></a>
+          <a href="#contact-section"><button className="btn">Contact Me</button></a>
         </div>
       </div>
 
@@ -35,7 +38,8 @@ export default function Home() {
 
       {/* this is the home page second section */}
       <div
-        className="skill-section"
+        className="skill-class"
+        id="skill-section"
         style={{
           backgroundImage: `url(${skillpic})`,
           backgroundSize: "cover",
@@ -48,9 +52,16 @@ export default function Home() {
       </div>
 
       {/* this is the project section */}
-      <div className="project-section">
+      <div className="project-class" id="projects-section">
         <h2>Projects</h2>
+        <Project />
       </div>
+
+      <div id="contact-section">
+        <LetsConnect />
+      </div>
+
+      <Footer />
     </div>
   );
 }

@@ -1,0 +1,27 @@
+.skill-bar {
+    margin-bottom: 20px;
+    width: 100%;
+    max-width: 600px;
+  }
+  
+  .skill-header {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1rem;
+    margin-bottom: 6px;
+    color: #ffffff;
+  }
+  
+  .progress-container {
+    background-color: #334155; /* dark slate gray */
+    border-radius: 10px;
+    overflow: hidden;
+    height: 14px;
+  }
+  
+  .progress-fill {
+    background-color: #7f5af0; /* accent purple */
+    height: 100%;
+    transition: width 1s ease-in-out;
+  }
+  

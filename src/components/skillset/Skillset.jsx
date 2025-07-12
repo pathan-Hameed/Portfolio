@@ -1,11 +1,12 @@
 import React from "react";
 import "./skillset.css";
+import SkillBar from "../skillbar/Skillbar";
 
 export default function Skillset() {
   return (
       <div className="skillset">
-        <h2>Skills</h2>
-      <div className="skillset-box">
+        {/* <h2>Skills</h2> */}
+      {/* <div className="skillset-box">
 
         <ul className="set">
           <h2 className="sub-head">Languages</h2>
@@ -41,7 +42,16 @@ export default function Skillset() {
           <span>Netlify</span>
           <span>Vercel</span>
         </ul>
-      </div>
+      </div> */}
+      <div style={{ padding: '40px', backgroundColor: '#0f172a' }}>
+      <h2 style={{ color: '#ffffff', marginBottom: '30px' }}>My Skills</h2>
+      <SkillBar skill="HTML & CSS" percentage={90} />
+      {/* <h3>Languages</h3> */}
+      <SkillBar skill="JavaScript" percentage={85} />
+      <SkillBar skill="React.js" percentage={80} />
+      <SkillBar skill="Node.js" percentage={70} />
+      <SkillBar skill="MongoDB" percentage={60} />
+    </div>
     </div>
   );
 }

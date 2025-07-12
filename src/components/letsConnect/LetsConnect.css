@@ -1,0 +1,56 @@
+.lets-connect {
+    background-color: #7f5af0; /* Accent color (modern purple) */
+    background-color: #1e3a8a; /* Accent color (modern purple) */
+    color: #ffffff;
+    padding: 60px 20px;
+    text-align: center;
+    border-radius: 12px;
+    margin: 0px 20px;
+  }
+  
+  .lets-connect h2 {
+    font-size: 2rem;
+    margin-bottom: 16px;
+  }
+  
+  .lets-connect p {
+    font-size: 1rem;
+    max-width: 600px;
+    margin: 0 auto 24px;
+    line-height: 1.6;
+  }
+  
+  .email-button {
+    display: inline-block;
+    background-color: #fff;
+    color: #7f5af0;
+    text-decoration: none;
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .email-button:hover {
+    background-color: #e0d9ff;
+  }
+  
+  .social-links {
+    margin-top: 30px;
+  }
+  
+  .social-links a {
+    display: inline-block;
+    margin: 0 10px;
+    transition: transform 0.3s ease;
+  }
+  
+  .social-links a:hover {
+    transform: scale(1.1);
+  }
+  
+  .social-links img {
+    width: 32px;
+    height: 32px;
+  }
+  

@@ -1,6 +1,5 @@
-.about-section {
-     margin-top: 4rem;
-     margin-bottom: 4rem;
+.about-class {
+  margin: 5rem 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -11,23 +10,22 @@
 }
 
 .name {
-    padding: 20px;
-    font-size: 34px;
-    text-align: center;
+  padding: 20px;
+  font-size: 34px;
+  text-align: center;
 }
 
 .name span {
-    font-size: 4rem;
-    color: #333;
-    font-weight: bold;
-    text-shadow: none;
-    color: 	#009afa;
+  font-size: 4rem;
+  color: #333;
+  font-weight: bold;
+  text-shadow: none;
+  color: #009afa;
 }
 
-.about-section p {
-    font-size: 1.5rem;
-    color: #555;
-    text-align: center;
-    padding: 20px;
-    margin-top: 5px;
+.about-class p {
+  font-size: 1.5rem;
+  color: #555;
+  text-align: center;
+  padding: 20px;
 }
