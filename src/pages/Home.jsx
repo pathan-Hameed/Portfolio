@@ -29,7 +29,7 @@ export default function Home() {
         <p>Explore my projects and skills</p>
         <div className="buttons">
         <a href="#projects-section"><button className="btn">View Projects</button></a>
-          <a href="#contact-section"><button className="btn">Contact Me</button></a>
+          <a href="#contact-section"><button className="btn">Connect Here</button></a>
         </div>
       </div>
 
