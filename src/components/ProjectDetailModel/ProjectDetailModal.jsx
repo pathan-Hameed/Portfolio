@@ -6,17 +6,37 @@ import "./ProjectDetailModal.css";
 export default function ProjectDetailModal({ project, onClose }) {
   return (
     <div className="modal-overlay">
-        <button className="close-button" onClick={onClose}>&times;</button>
+      <button className="close-button" onClick={onClose}>
+        &times;
+      </button>
       <div className="modal-content">
-        <img src={project.image} alt={project.title} className="modal-image" />
-        <h2>{project.title}</h2>
+        <div className="model-header">
+          <img
+            src={project.image}
+            alt={project.title}
+            className="modal-image"
+          />
+          <h2>{project.title}</h2>
+        </div>
         <p>{project.description}</p>
-        <p><strong>Extra Description:</strong> {project.extraDescription}</p>
-        <p><strong>Tech Stack:</strong> {project.techStack}</p>
-        <p><strong>Challenges:</strong> {project.challenges}</p>
+        <div className="model-subsec">
+          <span>Extra Description:</span>
+          <p> {project.extraDescription}</p>
+        </div>
+        <div className="model-subsec">
+          <span>Tech Stack:</span> <p>{project.techStack}</p>
+        </div>
+        <div className="model-subsec">
+          <span>Challenges:</span>
+          <p> {project.challenges}</p>
+        </div>
         <div className="modal-links">
-          <a href={project.github} target="_blank" rel="noopener noreferrer">GitHub</a>
-          <a href={project.linkedin} target="_blank" rel="noopener noreferrer">LinkedIn</a>
+          <a href={project.github} target="_blank" rel="noopener noreferrer">
+            GitHub
+          </a>
+          <a href={project.vercel} target="_blank" rel="noopener noreferrer">
+            Vercel
+          </a>
         </div>
       </div>
     </div>

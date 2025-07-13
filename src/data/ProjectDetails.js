@@ -12,7 +12,7 @@ const projectDetails = {
     techStack: "JavaScript, DOM, CSS Grid",
     challenges: "Handling operator precedence and real-time updates was tricky.",
     github: "https://github.com/username/calculator",
-    linkedin: "https://linkedin.com/in/yourprofile"
+    vercel: "https://vercel.com/in/yourprofile"
   },
   "Currency Converter ": {
     image: currency,
@@ -20,7 +20,7 @@ const projectDetails = {
     techStack: "JavaScript, REST APIs, CSS Grid",
     challenges: "Parsing API responses and syncing input values.",
     github: "https://github.com/username/currency-converter",
-    linkedin: "https://linkedin.com/in/yourprofile"
+    vercel: "https://vercel.com/in/yourprofile"
   },
   "GSoC Info Website": {
     image: gsoc,
@@ -28,7 +28,7 @@ const projectDetails = {
     techStack: "React, React Router",
     challenges: "Designing a clean and accessible layout.",
     github: "https://github.com/username/gsoc-site",
-    linkedin: "https://linkedin.com/in/yourprofile"
+    vercel: "https://vercel.com/in/yourprofile"
   },
   "Portfolio Website": {
     image: portfolio,
@@ -36,7 +36,7 @@ const projectDetails = {
     techStack: "React, CSS Modules",
     challenges: "Making layout mobile-first and optimizing performance.",
     github: "https://github.com/username/portfolio",
-    linkedin: "https://linkedin.com/in/yourprofile"
+    vercel: "https://vercel.com/in/yourprofile"
   }
 };
 
