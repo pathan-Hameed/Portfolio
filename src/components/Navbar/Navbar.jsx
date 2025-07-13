@@ -35,7 +35,7 @@ const Navbar = () => {
           <li><a href="#about-section">About</a></li>
           <li><a href="#skill-section">Skills</a></li>
           <li><a href="#projects-section">Projects</a></li>
-          <li><a href="#contact-section">Contact</a></li>
+          <li><a href="#contact-section">Connect</a></li>
         </ul>
 
         {/* Mobile Icon */}

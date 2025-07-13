@@ -11,7 +11,7 @@ import Footer from "../components/footer/Footer";
 
 export default function Home() {
   return (
-    <div className="homepage">
+    <div className="homepage" id="home">
       <Navbar />
 
       {/* this is the home page */}
