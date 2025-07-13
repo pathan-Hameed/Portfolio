@@ -24,7 +24,7 @@ const ProjectCard = ({ title, description, image, link, tags = [] }) => {
           <div className="project-tags">
             {tags.map((tag, index) => (
               <span key={index} className="project-tag">
-                #{tag}
+                {tag}
               </span>
             ))}
           </div>

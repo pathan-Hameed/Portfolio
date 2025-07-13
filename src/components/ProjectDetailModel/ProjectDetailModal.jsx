@@ -6,8 +6,8 @@ import "./ProjectDetailModal.css";
 export default function ProjectDetailModal({ project, onClose }) {
   return (
     <div className="modal-overlay">
-      <div className="modal-content">
         <button className="close-button" onClick={onClose}>&times;</button>
+      <div className="modal-content">
         <img src={project.image} alt={project.title} className="modal-image" />
         <h2>{project.title}</h2>
         <p>{project.description}</p>

@@ -21,14 +21,21 @@
   position: relative;
 }
 
+.modal-content::-webkit-scrollbar {
+  display: none;
+}
+
 .close-button {
   position: absolute;
+  top: 20px;
   right: 20px;
-  top: 15px;
   font-size: 24px;
   background: none;
+  color: whitesmoke;
+  font-size: 50px;
   border: none;
   cursor: pointer;
+  z-index: 1001;
 }
 
 .modal-image {
@@ -46,3 +53,11 @@
   color: #0073e6;
   text-decoration: none;
 }
+
+/* Hide modal on mobile */
+@media screen and (max-width: 768px) {
+  .modal-overlay {
+    display: none;
+  }
+}
+
