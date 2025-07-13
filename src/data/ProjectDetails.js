@@ -11,7 +11,7 @@ const projectDetails = {
     extraDescription: "This calculator supports chained operations and updates results live as the user types.",
     techStack: "JavaScript, DOM, CSS Grid",
     challenges: "Handling operator precedence and real-time updates was tricky.",
-    github: "https://github.com/username/calculator",
+    github: "https://github.com/pathan-Hameed/JS-Calculator",
     vercel: "https://vercel.com/in/yourprofile"
   },
   "Currency Converter ": {
@@ -19,7 +19,7 @@ const projectDetails = {
     extraDescription: "Fetches real-time exchange rates using a reliable third-party API.",
     techStack: "JavaScript, REST APIs, CSS Grid",
     challenges: "Parsing API responses and syncing input values.",
-    github: "https://github.com/username/currency-converter",
+    github: "https://github.com/pathan-Hameed/Currency-Converter",
     vercel: "https://vercel.com/in/yourprofile"
   },
   "GSoC Info Website": {
@@ -27,7 +27,7 @@ const projectDetails = {
     extraDescription: "Educational layout with FAQs, timeline, and contribution guides.",
     techStack: "React, React Router",
     challenges: "Designing a clean and accessible layout.",
-    github: "https://github.com/username/gsoc-site",
+    github: "https://github.com/pathan-Hameed/GSoC2025",
     vercel: "https://vercel.com/in/yourprofile"
   },
   "Portfolio Website": {
@@ -35,7 +35,7 @@ const projectDetails = {
     extraDescription: "Fully responsive personal portfolio to showcase skills and projects.",
     techStack: "React, CSS Modules",
     challenges: "Making layout mobile-first and optimizing performance.",
-    github: "https://github.com/username/portfolio",
+    github: "https://github.com/pathan-Hameed/Portfolio",
     vercel: "https://vercel.com/in/yourprofile"
   }
 };

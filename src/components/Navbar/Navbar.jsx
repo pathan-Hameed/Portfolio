@@ -51,7 +51,7 @@ const Navbar = () => {
           <li><a href="#about-section" onClick={toggleMenu}>About</a></li>
           <li><a href="#skill-section" onClick={toggleMenu}>Skills</a></li>
           <li><a href="#projects-section" onClick={toggleMenu}>Projects</a></li>
-          <li><a href="#contact-section" onClick={toggleMenu}>Contact</a></li>
+          <li><a href="#contact-section" onClick={toggleMenu}>Connect</a></li>
         </ul>
       </div>
     </header>
