@@ -41,7 +41,7 @@ export default function Project() {
 
       <ProjectCard
         title="Portfolio Website"
-        description="Developed a mobile-first design personal portfolio."
+        description="Developed a mobile-first design personal portfolio which includes all my works in React."
         image={portfolio}
         link="https://portfolio.com"
         tags={["React", "CSS"]}

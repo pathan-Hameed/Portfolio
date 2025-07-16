@@ -78,6 +78,7 @@
 
 .modal-links {
   margin-top: 20px;
+  cursor: pointer;
 }
 
 .modal-links a {

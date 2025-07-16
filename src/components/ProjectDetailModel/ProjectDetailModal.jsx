@@ -34,8 +34,8 @@ export default function ProjectDetailModal({ project, onClose }) {
           <a href={project.github} target="_blank" rel="noopener noreferrer">
             GitHub
           </a>
-          <a href={project.vercel} target="_blank" rel="noopener noreferrer">
-            Vercel
+          <a href={project.netlify} target="_blank" rel="noopener noreferrer">
+            Netlify
           </a>
         </div>
       </div>
