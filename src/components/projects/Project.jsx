@@ -1,4 +1,4 @@
-import "./project.css";
+import "./Project.css";
 import ProjectCard from "../ProjectCard/ProjectCard";
 import Calculator from "../../assets/Calculator.png";
 import currency from "../../assets/currency.jpg";
