@@ -1,5 +1,5 @@
 import React from 'react';
-import './SkillBar.css';
+import './Skillbar.css';
 
 const SkillBar = ({ skill, percentage }) => {
   return (
