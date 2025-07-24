@@ -1,5 +1,5 @@
 import React from "react";
-import "./PieChart.css";
+import "./Piechart.css";
 
 const PieChart = ({ data, title = "Tech Overview" }) => {
   // Calculate cumulative percentages for conic-gradient stops
