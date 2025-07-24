@@ -1,13 +1,13 @@
 import React from "react";
 import "./Home.css";
 import mainpic2 from "../assets/mainpic2.jpg";
-import skillpic from "../assets/skillpic.jpg";
 import Navbar from "../components/Navbar/Navbar";
 import Skillset from "../components/skillset/Skillset";
 import AboutSection from "../components/about/AboutSection";
 import Project from "../components/projects/Project";
 import LetsConnect from "../components/letsConnect/LetsConnect";
 import Footer from "../components/footer/Footer";
+import skillpic from '../assets/skillPic.jpg'
 
 export default function Home() {
   return (
